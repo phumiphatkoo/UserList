@@ -43,8 +43,141 @@
                     </ul>
                 </div>
             </div>
-        
-    </header>
+        </header>
+    <main>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-3 data-bs-container="body data-bs-toggle="popover" data-bs-placement="top"
+    data-bs-content="Email: john@gmail.com">
+                <div class="card-body">
+                    <div class="d-flex gap-3 ">
+                        <div class="user-img ">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt=""
+                                class="rounded-circle img-fluid">
+                            </div>
+                        <div class="user-info ">
+                            <h4>John Doe</h4>
+                            <h6>Troy MI</h6>
+                            <span class="badge bg-primary">nature</span>
+                            <span class="badge bg-primary">travel</span>
+                            <span class="badge bg-primary">sport</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-3 data-bs-container="body data-bs-toggle="popover" data-bs-placement="top"
+    data-bs-content="Email: lehia@gmail.com">
+                <div class="card-body">
+                    <div class="d-flex gap-3 ">
+                        <div class="user-img ">
+                            <img src="https://randomuser.me/api/portraits/women/75.jpg" alt=""
+                                class="rounded-circle img-fluid">
+                            </div>
+                        <div class="user-info ">
+                            <h4>Lehla Nichols</h4>
+                            <h6>Fort Worth, TX</h6>
+                            <span class="badge bg-primary">Fashion</span>
+                            <span class="badge bg-primary">STEM</span>
+                            <span class="badge bg-primary">Architecture</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-3 data-bs-container="body data-bs-toggle="popover" data-bs-placement="top"
+    data-bs-content="Email: annie@gmail.com">
+                <div class="card-body">
+                    <div class="d-flex gap-3 align-items-center">
+                        <div class="user-img ">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt=""
+                                class="rounded-circle img-fluid">
+                            </div>
+                        <div class="user-info ">
+                            <h4>Annie Rice</h4>
+                            <h6>Troy, MI</h6>
+                            <span class="badge bg-primary">Electronics</span>
+                            <span class="badge bg-primary">Tech</span>
+                            <span class="badge bg-primary">Music</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <main>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-3 data-bs-container="body data-bs-toggle="popover" data-bs-placement="top"
+    data-bs-content="Email: alexaan@gmail.com">
+                <div class="card-body">
+                    <div class="d-flex gap-3 ">
+                        <div class="user-img ">
+                            <img src="https://randomuser.me/api/portraits/men/78.jpg" alt=""
+                                class="rounded-circle img-fluid">
+                            </div>
+                        <div class="user-info ">
+                            <h4>Alex Xander</h4>
+                            <h6>Stockholm, CA</h6>
+                            <span class="badge bg-primary">Electronics</span>
+                            <span class="badge bg-primary">Music</span>
+                            <span class="badge bg-primary">Programmer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-3 data-bs-container="body data-bs-toggle="popover" data-bs-placement="top"
+    data-bs-content="Email: minceyvan@gmail.com">
+                <div class="card-body">
+                    <div class="d-flex gap-3 ">
+                        <div class="user-img ">
+                            <img src="https://randomuser.me/api/portraits/women/67.jpg" alt=""
+                                class="rounded-circle img-fluid">
+                            </div>
+                        <div class="user-info ">
+                            <h4>Mincey Vanderwell</h4>
+                            <h6>Los Angeles, CA</h6>
+                            <span class="badge bg-primary">Fashion</span>
+                            <span class="badge bg-primary">Jewelry</span>
+                            <span class="badge bg-primary">Designer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-3 data-bs-container="body data-bs-toggle="popover" data-bs-placement="top"
+    data-bs-content="Email: jessie12@gmail.com">
+                <div class="card-body">
+                    <div class="d-flex gap-3 align-items-center">
+                        <div class="user-img ">
+                            <img src="https://randomuser.me/api/portraits/women/2.jpg" alt=""
+                                class="rounded-circle img-fluid">
+                            </div>
+                        <div class="user-info ">
+                            <h4>Jessie Huang</h4>
+                            <h6>Texas</h6>
+                            <span class="badge bg-primary">Life Style</span>
+                            <span class="badge bg-primary">Home Cook</span>
+                            <span class="badge bg-primary">Influencer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+        const popoverList = [...popoverTriggerList].map(
+        popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl)
+    );
+    </script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/darkmodetoggle.js"></script>
 </body>
